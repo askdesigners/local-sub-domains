@@ -1,0 +1,8 @@
+$TTL	60
+$ORIGIN	dev.
+@			1D IN SOA		localhost. root.localhost. (567 3H 15M 1W 1D)
+			1D IN NS		localhost.
+			1D IN A			127.0.0.1
+*.dev.		60 IN A			127.0.0.1
+go.dev.		60 IN A			127.0.0.1
+*.go.dev.	60 IN A			127.0.0.1
